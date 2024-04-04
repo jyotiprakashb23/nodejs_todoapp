@@ -21,6 +21,6 @@ app.use(cors({
 app.use("/api/v1/users",userRouter);
 app.use("/api/v1/tasks",taskRouter);
 app.get("/", (req, res) => {
-    res.send("<div><h1>Hiiii , Sonalin Are you at office </h1><br> <h2>Are you in office ? </h2></div>");
+    res.send("<div><h1>Hiiii , Sonalin </h1><br> <h2>Are you in office ? </h2></div>");
   });
 app.use(errorMiddleware);
